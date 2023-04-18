@@ -1,0 +1,14 @@
+<!-- <highcharts-chart
+  [Highcharts]="Highcharts"
+  [options]="chartOptions"
+></highcharts-chart> -->
+<highcharts-chart
+  fxFill
+  [Highcharts]="highcharts"
+  [callbackFunction]="chartCallback"
+  style="height:100%;width:98%; display: block;"
+  [update]="false"
+  [oneToOne]="false"
+  [options]="chartOptions"
+>
+</highcharts-chart>
